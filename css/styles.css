@@ -357,7 +357,10 @@ body {
 .social-list-link:focus{
     background-color:#31d0aa;;
 }
-
+.social-list-link-team:focus ,
+.social-list-link-team:hover{
+    background-color: #404bbf;
+}
 /*Buttons portfolio*/
 
 .buttons{
