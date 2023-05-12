@@ -353,12 +353,12 @@ body {
     border-radius: 50%;
    
 }
-.social-list-link:hover ,
-.social-list-link:focus{
+.social-list-link-footer:hover ,
+.social-list-link-footer:focus{
     background-color:#31d0aa;;
 }
-.social-list-link-team:focus ,
-.social-list-link-team:hover{
+.social-list-link:focus ,
+.social-list-link:hover{
     background-color: #404bbf;
 }
 /*Buttons portfolio*/
