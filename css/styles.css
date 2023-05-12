@@ -307,6 +307,7 @@ body {
     display: flex;
     gap: 24px;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .specialist-name{
@@ -321,7 +322,8 @@ body {
 
 }
 .specialist-container {
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .job-title{
     font-size: 16px;
@@ -333,9 +335,13 @@ body {
 }
 .social-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     text-align: center;
+    justify-content: center;
     
+}
+.social-list-icon{
+    fill:#f4f4fd;
 }
 .social-list-link{
     display: flex;
@@ -347,7 +353,10 @@ body {
     border-radius: 50%;
    
 }
-
+.social-list-link:hover ,
+.social-list-link:focus{
+    background-color: #404bbf;
+}
 
 /*Buttons portfolio*/
 
