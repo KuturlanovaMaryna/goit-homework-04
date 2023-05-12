@@ -318,11 +318,18 @@ body {
 .social-list{
     display: flex;
     column-gap: 24px;
+    text-align: center;
     
 }
-.social-list-item{
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     width: 40px;
     height: 40px;
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%;
+   
 }
 
 
