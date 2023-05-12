@@ -210,13 +210,17 @@ body {
     width: 264px;
     height: 224px;
     
-    
 }
 .function-icon{
     background-color: #F4F4FD;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
 }
 .function-list-icon{
     margin: 24px 100px;
