@@ -286,6 +286,13 @@ body {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc(100% - 72px)/4;
+
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    
+    box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+    
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
 }
 .members-team{
     display: flex;
@@ -363,6 +370,11 @@ body {
     background-color: #404BBF;
     color: #FFFFFF;
     border: 1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08);
+    
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /*Features*/
@@ -389,6 +401,15 @@ body {
 
 .features-item-container{
     display: inline-block;
+
+}
+.features-item-container:hover ,
+.features-item-container:focus{
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
+box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .name-chapter-container{
     padding: 32px 16px;
@@ -410,6 +431,41 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+/*Customers*/
+.customers-title{
+ color: #2E2F42;
+    
+ font-weight: 700;
+font-size: 36px;
+line-height: 0.95;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+    
+    
+margin-bottom: 72px;
+}
+.customers-section{
+    margin-top: 120px;
+}
+.customers-list{
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: center;
+    gap: 24px;
+}
+.customers-list-link{
+    display: flex;
+    width: 168px;
+    height: 88px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+.customers-list-icon{
+    
 }
 /*Footer*/
 .basement-logo{
@@ -445,4 +501,23 @@ body {
     display: block;
     width: 264px;
 
+}
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+.footer-text-container{
+    margin-right: 120px;
+}
+.footer-social-text{
+    font-style: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.footer-list{
+    display: flex;
+    column-gap: 16px;
 }
