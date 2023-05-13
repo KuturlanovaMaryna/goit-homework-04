@@ -487,7 +487,11 @@ margin-bottom: 72px;
     color: #404bbf;
 }
 .customers-list-link:hover .customers-list-icon, .customers-list-link:focus .customers-list-icon{
-    fill: #404bbf;}
+    fill: #404bbf;
+}
+.customers-list-icon{
+    fill: currentColor;
+}
 
 /*Footer*/
 .basement-logo{
